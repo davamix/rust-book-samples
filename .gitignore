@@ -1,1 +1,10 @@
 target/
+debug/
+
+**/*.rs.bk
+
+*.pdb
+
+**/mutants.out*/
+
+rust-ice-*.txt
