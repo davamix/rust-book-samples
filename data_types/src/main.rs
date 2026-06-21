@@ -21,4 +21,10 @@ fn main() {
     println!("first_value: {first_value}");
     // println!("third_value: {tup2.2}"); // Not supported
     println!("third_value: {0}", tup2.2);
+
+    let mut x: (i32, i32) = (1,2);
+    x.0 = 0;
+    x.1 += 5;
+
+    println!("x value: {0}, {1}", x.0, x.1);
 }
