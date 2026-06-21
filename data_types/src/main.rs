@@ -27,4 +27,13 @@ fn main() {
     x.1 += 5;
 
     println!("x value: {0}, {1}", x.0, x.1);
+
+    // arrays
+    let a1 = [1,2,3,4,5];
+
+    // type + length
+    let a2: [i32; 5] = [1,2,3,4,5];
+
+    // same value
+    let a3 = [3; 5]; // [3,3,3,3,3]
 }
